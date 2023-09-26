@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5a0080; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .cantainer {
+    background-color: #271d39;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #visor {
+    font-size: 28px; 
+    padding: 10px;
+    margin-bottom: 20px; 
+    height: 50px;
+  }
+  
+  .teclado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px; 
+    border: none;
+    border-radius: 100px; 
+    cursor: pointer;
+  }
+  
+  .numero {
+    background-color: #9062e4;
+    color: #fff;
+  }
+  
+  .operacao {
+    background-color: #3e1c71;
+    color: #fff;
+  }
+  
